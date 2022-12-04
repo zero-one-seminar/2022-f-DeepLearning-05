@@ -16,4 +16,3 @@ print(sum_squared_error(np.array(y), np.array(t)))
 # NNWの出力が"[7]の確率が最も高い"だったとき
 y = [0.1, 0.05, 0.1, 0.0, 0.05, 0.1, 0.0, 0.6, 0.0, 0.0]
 print(sum_squared_error(np.array(y), np.array(t)))
-
