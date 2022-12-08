@@ -1,6 +1,6 @@
 ---
 marp: true
-math: katex
+# math: katex
 header: "損失関数"
 footer: '2022/12/7 ゼロイチゼミ <a href="https://twitter.com/nu_zero_one" style="color:white">@nu_zero_one</a>'
 theme: 01semi
@@ -43,7 +43,7 @@ y2 = [0.1, 0.05, 0.1, 0.0, 0.05, 0.1, 0.0, 0.6, 0.0, 0.0]
 </br>
 
 $$
-E=-\dfrac{1}{N}\sum _{k}t_{k}\log y_{k}
+E=-\sum _{k}t_{k}\log y_{k}
 $$
 
 ---
@@ -76,6 +76,3 @@ y2 = [0.1, 0.05, 0.1, 0.0, 0.05, 0.1, 0.0, 0.6, 0.0, 0.0]
 $$
 E=-\dfrac{1}{N}\sum _{n}\sum _{k}t_{n,k}\log y_{n,k}
 $$
-
-
-
